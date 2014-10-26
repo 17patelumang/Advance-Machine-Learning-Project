@@ -1,4 +1,4 @@
-*AML PROJECT - UMANG PATEL and ILAMBHARATHI KANNIAH*
+_AML PROJECT - UMANG PATEL and ILAMBHARATHI KANNIAH_
 
 Contact ujp2001@columbia.edu or ik2342@columbia.edu for questions.
 
