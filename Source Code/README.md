@@ -1,11 +1,10 @@
 AML PROJECT - UMANG PATEL and ILAMBHARATHI KANNIAH
+
 Contact ujp2001@columbia.edu or ik2342@columbia.edu for questions.
-===
-------------------------
+
 Command to run the DEMO:
 demo
-------------------------
-===
+
 
 Dependencies required for this project to RUN:
 ------------------------
