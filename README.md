@@ -14,32 +14,32 @@ http://cvxr.com/cvx/
 
 The files included are :
 ------------------------
-demo.m 									- Runs the wrapper.m and clustering(5) for demo purposes.
+1) demo.m 									- Runs the wrapper.m and clustering(5) for demo purposes.
 
 
-wrapper.m 								- Runs the extended model having KF-KS, EnKF-EnKS and Initial Clustering of Users.
+2) wrapper.m 								- Runs the extended model having KF-KS, EnKF-EnKS and Initial Clustering of Users.
 
-run_CKF_EM.m, run_CKF_EM_EnKF			- runs EM learning algorithm
+3) run_CKF_EM.m, run_CKF_EM_EnKF			- runs EM learning algorithm
 
-run_CKF_nUsers.m, run_CKF_nUsers_EM_O.m	- wrapper for the n-user Kalman filter and Ensemble Kalman Filter respectively.
+4) run_CKF_nUsers.m, run_CKF_nUsers_EM_O.m	- wrapper for the n-user Kalman filter and Ensemble Kalman Filter respectively.
 
-run_CKF_nFBKF.m, run_CKF_nFBKF_enKF		- forward/backward algorithm to implement Kalman filter/smoother and Ensemble Kalman filter/ Ensemble Kalman smoother.
+5) run_CKF_nFBKF.m, run_CKF_nFBKF_enKF		- forward/backward algorithm to implement Kalman filter/smoother and Ensemble Kalman filter/ Ensemble Kalman smoother.
 
-plot_Results.m							- plot results
+6) plot_Results.m							- plot results
 
-generate_CKF_data.m						- generate the gold data - output to data_CKF_test
+7) generate_CKF_data.m						- generate the gold data - output to data_CKF_test
 
-stograd_func.m   						- Stochastic gradient method to directly solve the minimization problem.
+8) stograd_func.m   						- Stochastic gradient method to directly solve the minimization problem.
 
-svdtimin.m 								- Helper function to run alternating lock minimization solution using CVX solver.
+9) svdtimin.m 								- Helper function to run alternating lock minimization solution using CVX solver.
 
-clustering.m 							- Runs the initial clustering of users into user-clusters and runs the model completely for each user-cluster.
+10) clustering.m 							- Runs the initial clustering of users into user-clusters and runs the model completely for each user-cluster.
 
 Main instructions:
 ------------------
 demo.m
 
-	Part-1
+a) Part-1
 	
     Runs wrapper.m to implement learning and a baseline comparison.
     
@@ -51,7 +51,7 @@ demo.m
 	
 	4) Plot comparison between actual prediction performance and baseline.
 	
-	Part-2
+b) Part-2
 	
 	Runs clustering of users into user-clusters and runs the wrapper.m for each of the clusters.
 	
